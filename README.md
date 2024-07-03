@@ -16,7 +16,7 @@ As defined by [web.dev](https://web.dev/articles/what-are-pwas) they are built a
 
 For a web app to be promoted for installation by a supporting browser it requires a web app maifest, a JSON file that tells the browser how the PWA should appear and behave on the device.
 
-The manifest is included using a <link> element in the `app/views/layouts/application.html.erb`
+The manifest is included using a ```html <link> ``` element in the `app/views/layouts/application.html.erb`
 
 ```html
 <link rel="manifest" href="manifest.json" />
